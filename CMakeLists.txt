@@ -8,7 +8,7 @@ else()
     message("=====FALSE====")
 endif()
 
-message("=====TRAVIS_BUILD_NUMBER==== ${TRAVIS_BUILD_NUMBER}"))
+message("=====TRAVIS_BUILD_NUMBER==== ${TRAVIS_BUILD_NUMBER}")
 message("=====VERSION==== ${VERSION}")
 
 project(print_ip VERSION ${VERSION})
